@@ -16,5 +16,10 @@ SPRs = {
 def calculateSPRs():
     for scout, spr in SPRs.items():
         if scout == 'Aakash':
+<<<<<<< Updated upstream
             SPRs[scout] = spr*random.randint(1,8)
         print(f'{scout} has an SPR of redacted')
+=======
+            SPRs[scout] = spr*8
+        print(f'{scout} has an SPR of {SPRs[scout]}')
+>>>>>>> Stashed changes
